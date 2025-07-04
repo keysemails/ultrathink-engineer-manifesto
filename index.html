@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manifesto for Ultrathink Engineering</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            position: relative;
+            background-color: #f5f2e8;
+            background-image: url('https://catholicpress.kr/data/cheditor4/1507/2010043649_DoiwCuG7_19.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(245, 242, 232, 0.85);
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 24px;
+            font-weight: normal;
+            margin: 40px 0 30px 0;
+            color: #000;
+        }
+        
+        h2 {
+            font-size: 20px;
+            font-weight: normal;
+            margin: 60px 0 30px 0;
+            color: #000;
+            text-align: center;
+        }
+        
+        .discovery {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 30px;
+            margin: 40px 0;
+            text-align: left;
+            border-radius: 5px;
+        }
+        
+        .discovery h3 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .token-list {
+            margin: 20px 0;
+            padding-left: 40px;
+        }
+        
+        .token-list li {
+            margin: 10px 0;
+        }
+        
+        .manifesto-content {
+            margin: 40px 0;
+            font-size: 18px;
+        }
+        
+        .value-pairs {
+            margin: 30px 0;
+            text-align: left;
+            display: inline-block;
+        }
+        
+        .value-pair {
+            margin: 20px 0;
+        }
+        
+        .primary-value {
+            font-weight: bold;
+            color: #000;
+        }
+        
+        .secondary-value {
+            color: #666;
+        }
+        
+        .closing-statement {
+            font-style: italic;
+            margin: 40px 0;
+            font-size: 16px;
+        }
+        
+        .principles {
+            margin: 60px 0;
+            text-align: left;
+        }
+        
+        .principle {
+            margin: 25px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .principle:before {
+            content: "•";
+            position: absolute;
+            left: 10px;
+            font-weight: bold;
+            color: #666;
+        }
+        
+        .signatures {
+            margin: 60px 0;
+            padding-top: 40px;
+            border-top: 1px solid #ccc;
+        }
+        
+        .signature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            text-align: left;
+            margin: 20px 0;
+        }
+        
+        .signature {
+            font-size: 14px;
+            color: #333;
+        }
+        
+        .footer {
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid #ccc;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            font-family: 'Courier New', monospace;
+            border-radius: 3px;
+        }
+        
+        .quote {
+            font-style: italic;
+            margin: 30px 40px;
+            color: #555;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Manifesto for Ultrathink Engineering</h1>
+        
+        <div class="discovery">
+            <h3>The Discovery</h3>
+            <p>In 2025, engineers discovered that Anthropic's Claude Code contained hardcoded cognitive expansion capabilities. These weren't documented features—they were power tools hidden in plain sight:</p>
+            
+            <ul class="token-list">
+                <li><code>think</code> → 4,000 tokens of deep reasoning</li>
+                <li><code>megathink</code> → 10,000 tokens of deep reasoning</li>
+                <li><code>ultrathink</code> → 31,999 tokens of deep reasoning (maximum)</li>
+            </ul>
+            
+            <p>While "Vibe Coders" were using AI to generate simple code, we discovered how to expand AI's cognitive capacity to superhuman levels. One engineer modified 600,000 lines of code in a month, spending only 10 minutes a day actually coding.</p>
+        </div>
+        
+        <div class="manifesto-content">
+            <p>We are uncovering better ways of developing<br>
+            software by doing it and helping others do it.<br>
+            Through this work we have come to value:</p>
+            
+            <div class="value-pairs">
+                <div class="value-pair">
+                    <span class="primary-value">AI cognitive expansion</span> over <span class="secondary-value">manual code generation</span>
+                </div>
+                <div class="value-pair">
+                    <span class="primary-value">Strategic investment</span> over <span class="secondary-value">cost minimization</span>
+                </div>
+                <div class="value-pair">
+                    <span class="primary-value">Constructive AI conflict</span> over <span class="secondary-value">passive acceptance</span>
+                </div>
+                <div class="value-pair">
+                    <span class="primary-value">Continuous experimentation</span> over <span class="secondary-value">tool familiarity</span>
+                </div>
+            </div>
+            
+            <p class="closing-statement">That is, while there is value in the items on<br>
+            the right, we value the items on the left more.</p>
+        </div>
+        
+        <h2>Principles of Ultrathink Engineering</h2>
+        
+        <div class="principles">
+            <div class="principle">
+                Our highest priority is to satisfy the customer through early and continuous delivery of valuable software powered by AI cognitive expansion. We achieve 100x productivity not through faster typing, but through deeper thinking.
+            </div>
+            
+            <div class="principle">
+                Welcome changing requirements, even late in development. Ultrathink processes harness AI's adaptability for the customer's competitive advantage. When you can refactor 600,000 lines in a month, pivoting becomes trivial.
+            </div>
+            
+            <div class="principle">
+                Deliver working software frequently, from a couple of hours to a couple of days, with a preference to the shorter timescale through AI acceleration. What once took sprints now takes sessions.
+            </div>
+            
+            <div class="principle">
+                Business people and Ultrathink engineers must work together continuously throughout the project, with AI as the cognitive bridge. We translate business needs into 31,999 tokens of reasoning.
+            </div>
+            
+            <div class="principle">
+                Build projects around motivated individuals who embrace AI partnership. Give them the environment, tools, and API budgets they need, and trust them to get the job done. $1,500/month is not an expense—it's empowerment.
+            </div>
+            
+            <div class="principle">
+                The most efficient and effective method of conveying information is through AI-mediated dialogue with maximum thinking depth. One <code>ultrathink</code> session replaces a dozen meetings.
+            </div>
+            
+            <div class="principle">
+                Working software at production scale is the primary measure of progress, not lines of code written. We celebrate systems architected, not keystrokes counted.
+            </div>
+            
+            <div class="principle">
+                Ultrathink processes promote sustainable development. The sponsors, engineers, and AI should be able to maintain a constant pace indefinitely. 10 minutes of daily coding is sustainable; 10 hours is not.
+            </div>
+            
+            <div class="principle">
+                Continuous attention to technical excellence and AI output quality enhances agility. Never accept the first response. Challenge, refine, and rebuild until excellence emerges.
+            </div>
+            
+            <div class="principle">
+                Simplicity—the art of maximizing the amount of work not done by humans—is essential. Let AI handle the complexity while you focus on the vision.
+            </div>
+            
+            <div class="principle">
+                The best architectures, requirements, and designs emerge from self-organizing teams that know when to challenge AI and when to trust it. Constructive conflict with AI produces superior solutions.
+            </div>
+            
+            <div class="principle">
+                At regular intervals, the team reflects on how to become more effective with AI tools, then tunes and adjusts its prompting strategies accordingly. Today's <code>ultrathink</code> is tomorrow's baseline.
+            </div>
+            
+            <div class="principle">
+                Embrace geographical arbitrage for AI access. When Gemini 2.5 Pro Deep Thinking launches US-only, we activate VPNs without hesitation. When new MCP servers appear on GitHub at 3 AM, we test them by 3:30 AM. Geographic and temporal boundaries are irrelevant to Ultrathink Engineers.
+            </div>
+            
+            <div class="principle">
+                First-mover advantage is everything. While others wait for documentation, we reverse-engineer from source code. While others wait for stable releases, we run bleeding-edge commits. The gap between "just released" and "already mastered" should be measured in hours, not weeks.
+            </div>
+        </div>
+        
+        <p class="quote">"Vibe Coders ask AI to 'make a login page.' We ask it to architect distributed systems with 5 different approaches, challenge each one, then rebuild from first principles. That's the Ultrathink difference."</p>
+        
+        <div class="signatures" style="margin-top: 40px; padding: 30px; background-color: rgba(255,255,255,0.8); border-radius: 10px; text-align: center;">
+            <h3 style="font-size: 20px; margin-bottom: 15px;">Join the Movement</h3>
+            <p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">
+                <strong>instruct.kr</strong><br>
+                Where Ultrathink Engineers gather to share API bills, challenge AI outputs,<br>
+                and push the boundaries of what's possible with cognitive expansion.<br>
+                A community of engineers who understand that true productivity comes from thinking deeper, not typing faster.
+            </p>
+            <p style="font-size: 14px; color: #666; margin-bottom: 20px;">
+                Join hundreds of engineers who've discovered that $1,500/month is not a cost—it's an investment in the future.
+            </p>
+            <a href="https://discord.gg/aKH2RMKt" style="display: inline-block; padding: 12px 30px; background-color: #5865F2; color: white; text-decoration: none; border-radius: 25px; font-weight: bold; font-size: 16px;">
+                Join instruct.kr Discord →
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p style="font-size: 18px; font-weight: bold; margin-bottom: 20px;">
+                "Vibe Coding is a toy. Ultrathink Engineering is a weapon."
+            </p>
+            
+            <p style="margin-top: 20px; font-size: 12px; color: #888;">
+            This page was created with <code>ultrathink</code> using<br>
+            <strong>Claude Code + Zen MCP Server</strong><br>
+            demonstrating 100x productivity in action
+            </p>
+            
+            <p style="margin-top: 30px;">
+                <a href="https://ultrathink.engineer">ultrathink.engineer</a> |
+                <a href="https://github.com/ultrathink-engineers">GitHub</a> |
+                <a href="mailto:manifest@ultrathink.engineer">Join Us</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
